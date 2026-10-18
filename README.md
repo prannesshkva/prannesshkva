@@ -74,7 +74,7 @@ The research trajectory began with the monolithic unification of graph represent
                       ┌────────────────────────────────────────┐
                       │              Ael-Agents                │
                       │  Biomimetic Cortical Hierarchy         │
-                      │  DMN ➔ Salience (0-Token) ➔ CEN        │
+                      │  DMN ➔ Salience (0-Token) ➔ CEN      │
                       │  Offline Dream-RSI Consolidation       │
                       └────────────────────────────────────────┘
 ```
