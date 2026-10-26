@@ -23,7 +23,7 @@ I am an **AI Systems Architect and researcher-inspired engineer** who bridges ri
 
 <p align="center">
   <a href="https://leetcode.com/u/prannesshkva/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Inter" alt="Prannessh KVA LeetCode Stats" width="500" />
+    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Fredoka&animation=false" alt="Prannessh KVA LeetCode Stats" width="500" />
   </a>
 </p>
 
