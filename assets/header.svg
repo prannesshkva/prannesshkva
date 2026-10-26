@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 230" width="100%" height="230">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0d14"/>
+      <stop offset="50%" stop-color="#0f141e"/>
+      <stop offset="100%" stop-color="#080b10"/>
+    </linearGradient>
+
+    <!-- Moving Shimmer Gradient on Name -->
+    <linearGradient id="nameShimmer" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="25%" stop-color="#e2e8f0"/>
+      <stop offset="50%" stop-color="#93c5fd"/>
+      <stop offset="75%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+      <animate attributeName="x1" values="-100%;0%" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="100%;200%" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Animated Border Gradient -->
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#64748b" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.8"/>
+      <animate attributeName="x1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="y1" values="0%;100%;0%" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Radial Glow behind Name -->
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="45%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.14"/>
+      <stop offset="60%" stop-color="#818cf8" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#0a0d14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="techGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.25"/>
+      <circle cx="0" cy="0" r="1" fill="#475569" fill-opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Rounded Container -->
+  <rect x="2" y="2" width="916" height="226" rx="14" ry="14" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="916" height="226" rx="14" ry="14" fill="url(#techGrid)"/>
+  <rect x="2" y="2" width="916" height="226" rx="14" ry="14" fill="url(#centerGlow)"/>
+
+  <!-- Moving Border Stroke -->
+  <rect x="2" y="2" width="916" height="226" rx="14" ry="14" fill="none" stroke="url(#borderGrad)" stroke-width="1.6"/>
+
+  <!-- Top System Bar -->
+  <g font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-size="11" fill="#64748b">
+    <text x="32" y="32" letter-spacing="1.5">SYS // PRANNESSH_KVA // 0x768D</text>
+    
+    <!-- Status Indicator -->
+    <circle cx="850" cy="28" r="4.5" fill="#10b981">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="28" r="8" fill="none" stroke="#10b981" stroke-width="1">
+      <animate attributeName="r" values="5;10;5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="736" y="32" letter-spacing="1">SYSTEM: ACTIVE</text>
+  </g>
+
+  <!-- Corner Brackets -->
+  <path d="M 18 36 L 18 18 L 36 18" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 902 36 L 902 18 L 884 18" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 18 194 L 18 212 L 36 212" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 902 194 L 902 212 L 884 212" stroke="#38bdf8" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Main Hero Name -->
+  <g text-anchor="middle">
+    <text x="460" y="105" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" letter-spacing="9" fill="url(#nameShimmer)">
+      PRANNESSH KVA
+    </text>
+
+    <!-- Subtitle Role -->
+    <text x="460" y="140" font-family="'JetBrains Mono', 'Fira Code', 'Consolas', monospace" font-weight="600" font-size="14" letter-spacing="4.5" fill="#94a3b8">
+      AI SYSTEMS ARCHITECT  ·  RESEARCHER-INSPIRED ENGINEER
+    </text>
+  </g>
+
+  <!-- Bottom Core Capability Pill -->
+  <g transform="translate(180, 162)">
+    <rect x="0" y="0" width="560" height="34" rx="17" ry="17" fill="#131b28" stroke="#334155" stroke-width="1"/>
+    
+    <!-- Pulsing Node Dot inside pill -->
+    <circle cx="24" cy="17" r="3.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <text x="38" y="22" font-family="'JetBrains Mono', 'Fira Code', monospace" font-size="11.5" font-weight="500" fill="#cbd5e1" letter-spacing="1">
+      <tspan fill="#38bdf8" font-weight="700">CORE:</tspan> Differentiable Cortical AI (0-Token Autograd) · Lie-Group SSMs
+    </text>
+  </g>
+</svg>
