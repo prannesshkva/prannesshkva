@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Prannessh KVA - AI Systems Architect & Researcher-Inspired Engineer" width="100%" />
+  <img src="assets/header.svg" alt="Prannessh KVA - AI Systems Architect & Deployment-Focused Builder" width="100%" />
 </p>
 
 <p align="center">
@@ -15,24 +15,22 @@
 
 ### Core Engineering Philosophy
 
-I am an **AI Systems Architect and researcher-inspired engineer** who bridges rigorous mathematical theory into fast, compilable, zero-token production systems. Rather than relying on heuristic prompt chains, I build systems grounded in **continuous Lie-group state spaces, Determinantal Point Processes, and exact PyTorch autograd Jacobians** that self-falsify in code before emitting answers.
-
----
-
-### Algorithmic & Systems Engineering Competence
-
-<p align="center">
-  <a href="https://leetcode.com/u/prannesshkva/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Fredoka&animation=false" alt="Prannessh KVA LeetCode Stats" width="500" />
-  </a>
-</p>
-
-- **700+ Algorithmic Challenges Solved** spanning graph theory, continuous dynamic programming, computational geometry, numerical optimization, and non-blocking concurrent data structures.
-- Direct mechanical sympathy across **Python, PyTorch autograd, CUDA C++, C++, and Linux systems internals**.
+I am an **AI Systems Architect and deployment-focused builder** who bridges rigorous mathematical theory into fast, compilable, zero-token production systems. Rather than relying on heuristic prompt chains, I build production systems grounded in **continuous Lie-group state spaces, Determinantal Point Processes, and exact PyTorch autograd Jacobians** that self-falsify in code before emitting answers.
 
 ---
 
 ### Core Engineering Stack
+
+#### Agentic Orchestration, MCP & Production LLM Engineering
+<p align="left">
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/LangSmith%20Telemetry-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangSmith" />
+  <img src="https://img.shields.io/badge/Model%20Context%20Protocol%20(MCP)-D97757?style=flat-square" alt="MCP" />
+  <img src="https://img.shields.io/badge/Programmatic%20Tool%20Calling%20(PTC)-0052CC?style=flat-square" alt="PTC" />
+  <img src="https://img.shields.io/badge/0--Token%20Autograd%20Gating-181717?style=flat-square" alt="Autograd Gating" />
+  <img src="https://img.shields.io/badge/768--D%20DPP%20Orthogonality-4A154B?style=flat-square" alt="DPP Manifolds" />
+</p>
 
 #### Foundational Modeling, Mathematics & Accelerators
 <p align="left">
@@ -45,24 +43,15 @@ I am an **AI Systems Architect and researcher-inspired engineer** who bridges ri
   <img src="https://img.shields.io/badge/Sentence--Transformers-6A5ACD?style=flat-square" alt="Sentence-Transformers" />
 </p>
 
-#### Multi-Agent Orchestration, MCP & Observability
-<p align="left">
-  <img src="https://img.shields.io/badge/Model%20Context%20Protocol%20(MCP)-D97757?style=flat-square" alt="MCP" />
-  <img src="https://img.shields.io/badge/0--Token%20Autograd%20Gating-181717?style=flat-square" alt="Autograd Gating" />
-  <img src="https://img.shields.io/badge/768--D%20DPP%20Orthogonality-4A154B?style=flat-square" alt="DPP Manifolds" />
-  <img src="https://img.shields.io/badge/Programmatic%20Tool%20Calling%20(PTC)-0052CC?style=flat-square" alt="PTC" />
-  <img src="https://img.shields.io/badge/LangSmith%20Telemetry-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangSmith" />
-</p>
-
-#### Systems Engineering & Infrastructure
+#### Systems Engineering, Cloud & Infrastructure
 <p align="left">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/Python%203.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Linux%20Kernel-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
@@ -105,22 +94,51 @@ The research lineage began with the monolithic unification of graph representati
 #### 1. [Ael-Agents](https://github.com/prannesshkva/Ael-Agents) — Trainable Cortical Co-Processor & Programmatic Tool Calling Engine (`v1.2.0`)
 
 A 100% domain-agnostic, PyTorch-differentiable multi-agent co-processor and Model Context Protocol (MCP) server. Enables any frontier LLM to act as a self-falsifying Principal Engineer from a single 1-sentence prompt.
+
+<p align="center">
+  <img src="assets/ael_mcp_showcase.jpg" alt="Ael-Agents 1-Click MCP Showcase" width="100%" />
+</p>
+
 * **0-Token PyTorch Autograd Jacobian Gate:** Replaces expensive LLM-as-a-Judge supervisor agents with exact gradient sensitivities ($J_i = \|\partial y / \partial w_i\|_2$) across trainable specialist weights, pruning **60%+ of context bloat** at **0 LLM routing tokens** ($<15\text{ ms}$ on CPU).
 * **768-D DPP Orthogonal Specialist Decomposition:** Partitions any single-sentence query into $N$ mutually orthogonal specialist domains (default $N=4$, dynamically configurable $2 \dots 8$) via Determinantal Point Process log-volume maximization ($\log\det L_S$) in `BAAI/bge-base-en-v1.5` space.
 * **Anthropic-Style Programmatic Tool Calling (`Ael-Agents_programmatic_verify`):** Forces the model to write and execute a self-contained Python/SciPy/PyTorch verification script (`record_candidate`) to simulate and reject failing architectures before generating the final answer.
 * **Offline Dream-RSI Consolidation:** Runs 15 epochs of AdamW gradient descent minimizing `UnifiedCortexLoss` (Task Alignment + Participation Ratio Diversity + Gate Entropy) with a strict thermodynamic acceptance gate ($F_{\text{dream}} \le F_{\text{wake}}$), adapting neural weights to the user's domain in real time.
 * **1-Click MCP Plug-in:** Works out-of-the-box in **Claude Desktop, Cursor, Windsurf, and Cline** (`claude mcp add Ael-Agents -- python mcp_server.py`).
 
+---
+
 #### 2. [QU-SSM](https://github.com/prannesshkva/QU-SSM) — Non-Dissipative Lie-Algebra Recurrent State-Space Models
 
 A continuous-time state-space architecture resolving the fundamental compromise between numerical stability and long-range memory retention in recurrent models.
+
+<p align="center">
+  <img src="assets/qu_ssm_trending.jpg" alt="QU-SSM Trending #1 on Hugging Face" width="100%" />
+</p>
+
+* **Hugging Face Trending Recognition:** Ranks **#1, #2, and #3** simultaneously within 3 days of release across open-source SSM architectures (`QU-SSM-130M-MoE`, `QU-SSM-15M`, `QU-SSM-60M-MoE`).
 * **Lie-Group Unitary Recurrence:** Enforces continuous state transitions along $\text{SO}(2)$ and $\text{SO}(16)$ orthogonal Lie groups, preventing contractive eigenvalue decay and catastrophic forgetting in linear SSMs.
 * **Gradient Preservation:** Eliminates exploding and vanishing gradient dynamics across extended horizons without artificial normalization resets.
 * **Custom CUDA Kernel:** Integrated custom CUDA C++ kernel (`qu_ssm_cuda.cu`) providing hardware-native execution and numerical parity with theoretical derivations.
 
+---
+
 #### 3. SAGUS (State-Aware Graph Unified System) — Monolithic Origin
 
 The foundational unified architecture that integrated graph topological structures directly into continuous state spaces, establishing the mathematical basis for orthogonal manifold state propagation.
+
+---
+
+### Algorithmic Rigor & Systems Engineering Foundations
+
+<p align="center">
+  <a href="https://leetcode.com/u/prannesshkva/" target="_blank">
+    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Fredoka&animation=false" alt="Prannessh KVA LeetCode Stats" width="500" />
+  </a>
+</p>
+
+- **700+ Algorithmic Challenges Solved** spanning graph theory, continuous dynamic programming, computational geometry, numerical optimization, and non-blocking concurrent data structures.
+- Direct mechanical sympathy across **Python, PyTorch autograd, CUDA C++, C++, and Linux systems internals**.
+- **Production Translation**: Direct translation of algorithmic complexity bounds into low-latency, compilable distributed pipelines.
 
 ---
 
