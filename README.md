@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/prannesshkva"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://github.com/prannesshkva/Ael-Agents/releases/tag/v1.2.0"><img src="https://img.shields.io/badge/Release-v1.2.0-f8fafc?style=flat-square&labelColor=181717&color=38bdf8" alt="Latest Release" /></a>
+  <a href="https://github.com/prannesshkva/Ael-Agents/releases/tag/v1.2.0"><img src="https://img.shields.io/badge/Release-v1.2.0-f8fafc?style=flat-square&labelColor=181717&color=e2e8f0" alt="Latest Release" /></a>
   <a href="https://doi.org/10.17605/OSF.IO/7R46Z"><img src="https://img.shields.io/badge/DOI-10.17605%2FOSF.IO%2F7R46Z-0A66C2?style=flat-square" alt="DOI" /></a>
   <a href="https://huggingface.co/prannesshkva"><img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face" /></a>
   <a href="https://smith.langchain.com/public/71010a71-b6cf-4e07-b6db-2d3553ad4a3a/r"><img src="https://img.shields.io/badge/LangSmith-Verified%20Trace-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangSmith" /></a>
@@ -23,7 +23,7 @@ I am an **AI Systems Architect and researcher-inspired engineer** who bridges ri
 
 <p align="center">
   <a href="https://leetcode.com/u/prannesshkva/" target="_blank">
-    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Inter&ext=activity" alt="Prannessh KVA LeetCode Stats" width="520" />
+    <img src="https://leetcard.jacoblin.cool/prannesshkva?theme=dark&font=Inter" alt="Prannessh KVA LeetCode Stats" width="500" />
   </a>
 </p>
 
