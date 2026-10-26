@@ -13,9 +13,16 @@
 
 ---
 
-### Core Engineering Philosophy
+### Who I am and What I Bring to an Engineering Team
 
-I am an **AI Systems Architect and deployment-focused builder** who bridges rigorous mathematical theory into fast, compilable, zero-token production systems. Rather than relying on heuristic prompt chains, I build production systems grounded in **continuous Lie-group state spaces, Determinantal Point Processes, and exact PyTorch autograd Jacobians** that self-falsify in code before emitting answers.
+I am an **AI Systems Architect & Deployment-Focused Builder** who translates first-principles mathematical modeling into low-latency, compilable, production-ready AI infrastructure. 
+
+While most agentic architectures rely on fragile heuristic prompt chains and cost-prohibitive LLM-as-a-Judge routing, I design **differentiable, self-validating production systems**:
+
+* **Zero-Token Latency & Cost Optimization**: Pioneered exact PyTorch autograd Jacobian sensitivity routing in production ([Ael-Agents](https://github.com/prannesshkva/Ael-Agents)), replacing multi-thousand-token supervisor LLMs with $<15\text{ ms}$ CPU tensor gates (**93.7% token reduction**).
+* **Deterministic Programmatic Verification**: Replaced speculative LLM hallucinations with sandboxed programmatic execution (Python, SciPy RK45 ODE solvers, RDKit compilers) that run numerical unit tests *before* returning responses.
+* **Production Systems & State Space Mastery**: Architected continuous Lie-group SSMs ([QU-SSM](https://github.com/prannesshkva/QU-SSM), ranked **#1, #2, and #3 Trending on Hugging Face**) with custom CUDA C++ kernels to bypass the memory wall with $O(1)$ recurrent scaling.
+* **End-to-End Mechanical Sympathy**: Backed by **700+ LeetCode algorithmic solutions**, translating theoretical complexity bounds into high-throughput microservices using **LangGraph, FastAPI, Redis, Docker, and the Model Context Protocol (MCP)**.
 
 ---
 
